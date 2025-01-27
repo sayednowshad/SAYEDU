@@ -1,0 +1,45 @@
+.benefits-section h2{
+
+  text-align: center;
+}
+
+.benefits-section {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .benefits-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  
+  .benefit {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 9px;
+    width: 300px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0 4px 10px rgba(173, 216, 230, 0.8);
+}
+
+  .benefit:hover{
+    box-shadow: 0 6px 15px rgba(73, 190, 230, 0.737);
+    transition: box-shadow 0.3s ease-in-out;
+}
+  
+  .benefit button {
+    margin-top: 1rem;
+    padding: 1.0rem 1.2rem;
+    background: #0004ff;
+    font-size: 14px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }

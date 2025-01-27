@@ -1,0 +1,63 @@
+.heading{
+
+ margin-left : 150px;
+ text-align: center;
+}
+
+.Mission-matt {
+    text-align: center;
+}
+
+.bullet-section {
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.bullet-section h2 {
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+  
+.bullet-section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #000000;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    /* text-align: center; */
+  }
+
+  ul li::marker {
+    font-size: 23px; /* Increases the size of the bullet points */
+    color: #000000; /* Optional: changes the color of the bullets */
+  }
+  
+.bullet-section ul li {
+    margin-bottom: 10px;
+  }
+
+.popular-categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+.categorys {
+    background-color: #f5f8fc;
+    color: #3266cc;
+    border: 1px solid #e0e0e0;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: box-shadow 0.3s, transform 0.3s;
+  }
+  
+  .categorys:hover{
+    background-color: #3266cc;
+    color : black;
+    transform: scale(1.05);
+  }
