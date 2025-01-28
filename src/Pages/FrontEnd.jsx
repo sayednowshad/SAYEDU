@@ -2,7 +2,7 @@ import React from "react";
 import "./FrontEnd.css"; // Import CSS
 import Navbar from "../Components/Navbar";
 
-const FrontEnd = () => {
+const FrontEnd = () => { 
   return (
 
     <>
@@ -12,17 +12,27 @@ const FrontEnd = () => {
 
       {/* HEADER SECTION */}
 
-      <header className="header">
+      <header className="header"> 
         <div>
           <h1>Front-End Development</h1>
           <p>
             All the resources are available through the links and kindly refer to this.
             We are providing the recommended platform not for any other promotion.
           </p>
+
+          <ul className="story" >
+
+          <li>1. HEllo WEorld </li>
+          <li>2. This is an another feature i had been enabled</li>
+          <li>3. Thank you guys with this beautiful</li>
+          <li>4. Awesome Weather Today</li>
+          <li>5. Finally i setup My PC YEAHHHH</li>
+
+          </ul>
           <span className="rating">Rating: <strong>4.4</strong></span>
           <p className="creator">
-         Created by <a href="https://www.linkedin.com/in/sayednowshad/" target="_blank" rel="noopener noreferrer">
-        <strong>Sayed Nowshad</strong>
+         Created by <a href="https://www.linkedin.com/in/sayednowshad/" target="_blank" rel="noopener noreferrer" style={{fontSize : "14px;"}}>
+        Sayed Nowshad
   </a>
 </p>
         </div>
