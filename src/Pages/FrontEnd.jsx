@@ -51,7 +51,6 @@ const [openIndex, setOpenIndex] = useState(null);
 const toggleFAQ = (index) => {
 setOpenIndex(openIndex === index ? null : index);
 };
-
 const handleDownload = () => {
 alert("Downloading Roadmap...");
 
@@ -130,10 +129,11 @@ alert("Downloading Roadmap...");
 
     <div className="faq-container">
 
-        <h2>Content / Topics :</h2>
+        <h2> Content / Topics:</h2>
 
         {faqData.map((faq, index) => (
-          <div key={index} className="faq-item">
+
+          <div key={index} className="faq-item"> 
 
           <div className="faq-title" onClick={() => toggleFAQ(index)}>
               {index + 1}. {faq.title}

@@ -149,7 +149,8 @@
     transform: translateX(10px);
   }
   
-  /* DOWNLOAD SECTION */
+/* DOWNLOAD SECTION */
+
   .downloadSection {
     text-align: center;
     margin-top: 30px;
@@ -198,19 +199,14 @@
       align-items: flex-start;
     }
   }
- /* Front-End Resources */
+                              /* Front-End Resources */
 /* FAQ Container */
+
 .faq-container {
-  width: 60%;
+  width: 100%;
   margin: 20px auto;
   font-family: Arial, sans-serif;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-  .faq-container {
-    width: 90%; /* Make it wider on mobile */
-  }
+  /* background-color: #3148cd95; */
 }
 
 /* FAQ Item */
@@ -218,6 +214,7 @@
   border: 1px solid #ccc;
   margin-bottom: 10px;
   border-radius: 5px;
+  margin: 10px;
 }
 
 /* FAQ Title */
@@ -225,10 +222,11 @@
   display: flex;
   justify-content: space-between;
   padding: 10px 15px;
-  background: #f8f8f8;
+  background: #ececee3e;
   cursor: pointer;
-  font-weight: bold;
+  font-weight: Medium;
   font-size: 16px;
+  font-family: "Poppins";
 }
 
 /* FAQ Arrow */
@@ -240,11 +238,12 @@
   transform: rotate(180deg);
 }
 
-/* FAQ Content */
+                                      /* FAQ Content Inside The FAQ's */
 .faq-content {
   padding: 15px;
   background: #fff;
   font-size: 14px;
+  /* margin-left: 20px; */
 }
 
 /* Download Button */
@@ -267,4 +266,9 @@
     padding: 8px 12px;
   }
 }
-          
+/* Responsive Design */
+@media (max-width: 768px) {
+  .faq-container {
+    width: 90%; /* Make it wider on mobile */
+  }
+}
