@@ -1,7 +1,8 @@
 import React from "react";
-import { useNavigate } from "react-router-dom"; // Import navigation hook
+import { useNavigate } from "react-router-dom"; //Import navigation hook
 import Navbar from "../Components/Navbar";
 import "./Explore.css";
+import Footer from "../Components/Footer";
 
 const Explore = () => {
   const navigate = useNavigate(); // Hook for navigation
@@ -49,6 +50,8 @@ const Explore = () => {
           ))}
         </div>
       </div>
+
+      <Footer />
     </>
   );
 };
