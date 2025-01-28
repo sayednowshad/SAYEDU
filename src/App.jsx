@@ -9,6 +9,7 @@ import FAQ from "./Components/FAQ";
 import Footer from "./Components/Footer";
 import Explore from "./Routers/Explore";
 import FrontEnd from "./Pages/FrontEnd";  // Import Explore component
+import BackEnd from "./Pages/BackEnd";  // Import Explore component
 
 const App = () => {
   return (
@@ -30,6 +31,7 @@ const App = () => {
        
         <Route path="/explore" element={<Explore />} />
         <Route path="/front-end" element={<FrontEnd />} />
+        <Route path="/backend" element={<BackEnd />} />
       </Routes>
     </Router>
   );

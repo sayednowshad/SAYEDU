@@ -10,7 +10,7 @@ const FrontEnd = () => {
     <Navbar />
     <div className="container">
 
-      {/* HEADER SECTION */}
+                                      {/* HEADER SECTION */}
 
       <header className="header"> 
       <div>
@@ -39,10 +39,10 @@ const FrontEnd = () => {
       </p>
 
         </div>
-        {/* Access Image from Public Folder */} 
+                                  {/* Access Image from Public Folder */} 
       </header>
 
-      {/* CONTENT SECTION */}
+                                        {/* CONTENT SECTION */}
       <section className="roadmap">
         <p>Steps You need To Follow</p>
         <ul>
@@ -52,7 +52,7 @@ const FrontEnd = () => {
           <li>4. Thanks a lot, “Stay Hard”💪 & “Stay Consistent”😉</li>
         </ul>
 
-        {/* DOWNLOAD SECTION */}
+                                     {/* DOWNLOAD SECTION */}
 
         <div className="downloadSection">
 
@@ -66,7 +66,7 @@ const FrontEnd = () => {
           <button className="downloadBtn">Download Now ⬇</button>
 
         </div>
-        
+
       </section>
     </div>
     </>
