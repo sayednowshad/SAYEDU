@@ -15,7 +15,7 @@ const FrontEnd = () => {
       <header className="header"> 
         <div>
           <h1>Front-End Development</h1>
-        <img src="/front-end-development.jpg" alt="Front-End Roadmap" />
+        <img src="/front-end-development.jpg" alt="Front-End Roadmap" /> 
           <p>
             All the resources are available through the links and kindly refer to this.
             We are providing the recommended platform not for any other promotion.
@@ -23,11 +23,11 @@ const FrontEnd = () => {
 
           <ul className="story" >
 
-          <li>1. HEllo WEorld </li>
-          <li>2. This is an another feature i had been enabled</li>
-          <li>3. Thank you guys with this beautiful</li>
-          <li>4. Awesome Weather Today</li>
-          <li>5. Finally i setup My PC YEAHHHH</li>
+          <li>1. This Website Providing the Available Resources🔗 </li>
+          <li>2. Searching & Finding🔎 it takes time⌛right? We take of that </li>
+          <li>3. Click the Links for the Related Domain and Get It🎉</li>
+          <li>4. Check Out The Road Maps Follow The Steps😉</li>
+          <li>5. Do Your Own Projects to Gain Experience 😃</li>
 
           </ul>
           <span className="rating">Rating: <strong>4.4</strong></span>
@@ -37,7 +37,7 @@ const FrontEnd = () => {
   </a>
 </p>
         </div>
-        {/* Access Image from Public Folder */}
+        {/* Access Image from Public Folder */} 
       </header>
 
       {/* CONTENT SECTION */}
