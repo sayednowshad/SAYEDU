@@ -1,10 +1,17 @@
 import React from "react";
 import "./FrontEnd.css"; // Import CSS
+import Navbar from "../Components/Navbar";
 
 const FrontEnd = () => {
   return (
+
+    <>
+    
+    <Navbar />
     <div className="container">
+
       {/* HEADER SECTION */}
+
       <header className="header">
         <div>
           <h1>Front-End Development</h1>
@@ -25,7 +32,7 @@ const FrontEnd = () => {
 
       {/* CONTENT SECTION */}
       <section className="roadmap">
-        <h2>Front-End Development</h2>
+        <p>Steps You need To Follow</p>
         <ul>
           <li>1. Click the below topics to unlock the Concepts</li>
           <li>2. Easy to navigate and access the resources given in the platform</li>
@@ -44,6 +51,7 @@ const FrontEnd = () => {
         </div>
       </section>
     </div>
+    </>
   );
 };
 
