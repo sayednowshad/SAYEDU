@@ -7,7 +7,7 @@ const Explore = () => {
   const navigate = useNavigate(); // Hook for navigation
 
   const categories = [
-    { title: "Front-End Development", img: "front-end-development.jpg", route: "/front-end" },
+    { title: "Front-End Development Sayed Nowshad", img: "front-end-development.jpg", route: "/front-end" },
     { title: "Backend Development", img: "backend-development.jpg", route: "/backend" },
     { title: "UI/UX Designer", img: "ui-ux.jpg", route: "/ui-ux" },
     { title: "Devops Engineer", img: "devops.jpg", route: "/devops" },
