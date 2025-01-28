@@ -198,4 +198,73 @@
       align-items: flex-start;
     }
   }
-  
+ /* Front-End Resources */
+/* FAQ Container */
+.faq-container {
+  width: 60%;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .faq-container {
+    width: 90%; /* Make it wider on mobile */
+  }
+}
+
+/* FAQ Item */
+.faq-item {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+/* FAQ Title */
+.faq-title {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+  background: #f8f8f8;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* FAQ Arrow */
+.faq-arrow {
+  transition: transform 0.3s;
+}
+
+.faq-arrow.open {
+  transform: rotate(180deg);
+}
+
+/* FAQ Content */
+.faq-content {
+  padding: 15px;
+  background: #fff;
+  font-size: 14px;
+}
+
+/* Download Button */
+.downloadBtn {
+  background-color: #ffe600;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  /* font-size: 20px; */
+  width: 50%; /* Full-width button */
+  color : black;
+  /* font-family: 'Roboto'; */
+}
+
+/* Adjust button size on mobile */
+@media (max-width: 768px) {
+  .downloadBtn {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+}
+          

@@ -26,7 +26,7 @@ const Explore = () => {
       <Navbar />
 
       <div className="explore-container">
-        <h1> Welcome To SAYED's Website Explore Your Domain 😁</h1>
+        <h1> Welcome To Our Website, Explore Your Domain😁</h1>
 
         <div className="section">
           {categories.map((category, index) => (

@@ -1,6 +1,7 @@
 import React from "react";
-import "./FrontEnd.css"; // Import CSS from the FrontEnd Bro 
+import "./FrontEnd.css"; // Import CSS from the FrontEnd Bro
 import Navbar from "../Components/Navbar";
+import Footer from "../Components/Footer";
 
 const BackEnd = () => { 
   return (
@@ -69,6 +70,7 @@ const BackEnd = () => {
 
       </section>
     </div>
+    <Footer />
     </>
   );
 };
