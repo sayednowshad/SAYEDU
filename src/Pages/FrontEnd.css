@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #2d4bf0;  /* Coursera/Udemy Blue */
-    --secondary-color: #ff9800; /* Udemy Orange */
+    --primary-color: #2d4bf0;  
+    --secondary-color: #ff9800;
     --bg-color: #f8f9fa;
     --card-bg: #ffffff;
     --text-dark: #333;
@@ -69,6 +69,7 @@
   }
   
   .header img {
+    margin-top : 10px;
     width: 240px;
     border-radius: 5px;
     box-shadow: 0px 3px 10px var(--shadow);
@@ -85,6 +86,7 @@
     font-size: 15px;
     color: rgb(28, 28, 28);
     /* opacity: 1.0; */
+    margin-top: 10px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
   
@@ -144,6 +146,11 @@
   .downloadSection {
     text-align: center;
     margin-top: 30px;
+  }
+
+  .downloadSection p{
+    font-size: 10px;
+    /* font-size: small; */
   }
   
   .downloadBtn {

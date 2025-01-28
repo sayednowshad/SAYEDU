@@ -15,6 +15,7 @@ const FrontEnd = () => {
       <header className="header"> 
         <div>
           <h1>Front-End Development</h1>
+        <img src="/front-end-development.jpg" alt="Front-End Roadmap" />
           <p>
             All the resources are available through the links and kindly refer to this.
             We are providing the recommended platform not for any other promotion.
@@ -37,24 +38,23 @@ const FrontEnd = () => {
 </p>
         </div>
         {/* Access Image from Public Folder */}
-        <img src="/front-end-development.jpg" alt="Front-End Roadmap" />
       </header>
 
       {/* CONTENT SECTION */}
       <section className="roadmap">
         <p>Steps You need To Follow</p>
         <ul>
-          <li>1. Click the below topics to unlock the Concepts</li>
-          <li>2. Easy to navigate and access the resources given in the platform</li>
-          <li>3. Providing the best resources. Share with your friends!</li>
-          <li>4. Thanks a lot, “Stay Hard” & “Stay Consistent”</li>
+          <li>1. Click the below topics to unlock the Concepts 🎉</li>
+          <li>2. Easy to navigate and access the resources given in the platform🚀</li>
+          <li>3. Providing the best resources. Share with your friends!🤝</li>
+          <li>4. Thanks a lot, “Stay Hard”💪 & “Stay Consistent”😉</li>
         </ul>
 
         {/* DOWNLOAD SECTION */}
         <div className="downloadSection">
           <h3>Download The Roadmap</h3>
-          <p>
-            In the Roadmap, we provide <strong>“Exact Steps” & “Enough Concepts”</strong> 
+          <p style={{fontFamily : 'Roboto'}}>
+            In the Roadmap, we provide  <b> “Exact Steps” </b>  & <b>“Enough Concepts”</b> 
             to learn by doing on your own. 😊
           </p>
           <button className="downloadBtn">Download Now ⬇</button>
