@@ -7,7 +7,8 @@ import HeroSection from "./Components/HeroSection";
 import Mission from "./Components/Mission";
 import FAQ from "./Components/FAQ";
 import Footer from "./Components/Footer";
-import Explore from "./Routers/Explore";  // Import Explore component
+import Explore from "./Routers/Explore";
+import FrontEnd from "./Pages/FrontEnd";  // Import Explore component
 
 const App = () => {
   return (
@@ -28,6 +29,7 @@ const App = () => {
 
        
         <Route path="/explore" element={<Explore />} />
+        <Route path="/front-end" element={<FrontEnd />} />
       </Routes>
     </Router>
   );

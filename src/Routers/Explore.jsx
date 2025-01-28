@@ -39,7 +39,7 @@ const Explore = () => {
           ))}
         </div>
 
-        <h2>Top AI Tools For You Guy's</h2>
+        <h2>Top AI Tools For You Guy's😉</h2>
 
         <div className="tools-section">
           {tools.map((tool, index) => (
