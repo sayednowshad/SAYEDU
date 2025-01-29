@@ -14,7 +14,7 @@ const Explore = () => {
     { title: "Devops Engineer", img: "devops.jpg", route: "/devops" },
     { title: "App Development", img: "app-development.jpg", route: "/app-development" },
     { title: "Data Science", img: "data-science.jpg", route: "/data-science" },
-    { title: "AI/ML", img: "ai-ml.jpg", route: "/ai-ml" },
+    { title: "AI/ML", img: "ai-ml.jpg", route: "/ai-ml" }, 
     { title: "Cyber Security", img: "cyber-security.jpg", route: "/cyber-security" },
     { title: "Git & GitHub", img: "git-github.jpg", route: "/git-github" },
   ];
