@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./FrontEnd.css"; 
 import Navbar from "../Components/Navbar";
+import SocialButtons from "../Buttons/SocialButtons";
 import Footer from "../Components/Footer";
 
 const faqData = [
@@ -77,8 +78,8 @@ const faqData = [
     },
 
 
-    {
-      title: "React 🔥",
+    { //start
+      title: "React 🔥", 
       content: (
         <>
           <h4>YouTube Playlist</h4>
@@ -110,11 +111,48 @@ const faqData = [
         </>
 
       ),
-  },
+  }, //end 
+
+  { //start
+      title: "Deployment System 🤩", 
+      content: (
+        <>
+          <h4>YouTube Playlist</h4>
+  
+      <ul>
+            <li>Introduction To HTML / CSS - <a href="#">Click here</a></li>
+            <li>Apna College Complete HTML / CSS - <a href="#">Click here</a></li>
+            <li>SuperSimpleDev Html / Css - <a href="#">Click here</a></li>
+            <li>Coding Ninja for Beginners Html / Css - <a href="#">Click here</a></li>
+            
+      </ul>
+  
+          <h4>Coursera (Certification)</h4> 
+  
+      <ul>
+            <li>Meta Introduction to HTML / CSS - <a href="#">Click here</a></li>
+            <li>IBM Intro to Web Development - <a href="#">Click here</a></li>
+            <li>Introduction to Web Technology - <a href="#">Click here</a></li>
+            <li>Beginners to HTML / CSS - <a href="#">Click here</a></li>
+      </ul>
+  
+            <h4>Top 5 Projects</h4>
+            <p>Click on <a href="#">Projects</a> to access all content</p>
+            <h4>Enough Important Topics</h4>
+            <p><a href="#">Download</a> Most Important Concepts</p>
+            <h4>Other Important Topics</h4>
+            <p>1. Learn Bootstrap | 2. Tailwind CSS | 3. Git / GitHub</p>
+  
+        </>
+      
+      ),
+  }, //end 
 
 ];
 
+
 const FrontEnd = () => {  
+
 const [openIndex, setOpenIndex] = useState(null);
 
 const toggleFAQ = (index) => {
@@ -194,7 +232,7 @@ alert("Downloading Roadmap...");
 </section>
     </div>
 
-      {/* Resources SECTION */}
+                                  {/* Resources SECTION */}
 
     <div className="faq-container">
 
@@ -213,8 +251,10 @@ alert("Downloading Roadmap...");
       </div>
         ))}
 
-</div>
+</div> 
 
+      
+      <SocialButtons />
       <Footer />
     </>
   );

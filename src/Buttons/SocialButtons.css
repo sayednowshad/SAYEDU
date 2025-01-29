@@ -1,0 +1,43 @@
+.social-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  button {
+    width: 180px;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+ 
+  button:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  button:active {
+    transform: scale(0.95);
+  }
+  
+  .reddit-btn {
+    background-color: #ff4500;
+    color: white;
+  }
+  
+  .telegram-btn {
+    background-color: #0088cc;
+    color: white;
+  }
+  
+  .instagram-btn {
+    background-color: #e4405f;
+    color: white;
+    margin : 10px;
+  }

@@ -16,5 +16,5 @@
   
   /* Prevent content from going under the navbar */
   body {
-    padding-top: 60px; /* Adjust based on navbar height */
+    padding-top: 55px; /* Adjust based on navbar height */
   }
