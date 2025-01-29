@@ -85,12 +85,9 @@ const BackEnd = () => {
 
             <p className="creator">
               Created by{" "}
-              <a
-                href="https://www.linkedin.com/in/sayednowshad/"
-                target="_blank"
-                rel="noopener noreferrer"
+          <a href="https://www.linkedin.com/in/sayednowshad/" target="_blank" rel="noopener noreferrer"
                 style={{ fontSize: "14px" }}
-              >
+          >
                 Sayed Nowshad
               </a>
 
@@ -137,22 +134,12 @@ const BackEnd = () => {
 
         {faqData2.map((faq, index) => (
           <div key={index} className="faq-item">
-            <div
-              className="faq-title"
-              onClick={() => toggleFAQ(index)}
-            >
-              {index + 1}. {faq.title}
-              <span
-                className={`faq-arrow ${
-                  openIndex === index ? "open" : ""
-                }`}
-              >
+            <div className="faq-title" onClick={() => toggleFAQ(index)}> {index + 1}. {faq.title}
+              <span className={`faq-arrow ${openIndex === index ? "open" : ""}`}>
                 ▼
               </span>
             </div>
-            {openIndex === index && (
-              <div className="faq-content">{faq.content}</div>
-            )}
+            {openIndex === index && ( <div className="faq-content">{faq.content}</div> )}
 
           </div>
 
