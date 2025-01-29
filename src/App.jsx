@@ -24,26 +24,28 @@ import DevOps from "./Pages/DevOps";
 
 
 const App = () => {
+
   return (
-    <Router>
+<Router>
       {/* Routes for different pages */}
-      <Routes>
+    <Routes>
         {/* Home page - Displays Navbar, HeroSection, Mission, Benefits, FAQ, and Footer */}
         <Route path="/" element={
-          <>
-            <Navbar />
-            <HeroSection />
-            <Mission />
-            <Benefits />
-            <FAQ />
-            <Footer />
-          </>
-        } />
+            <>
+                  <Navbar />
+                  <HeroSection />
+                  <Mission />
+                  <Benefits />
+                  <FAQ />
+                  <Footer />
+            </>
 
-       
+} />
+
+
         <Route path="/explore" element={<Explore />} />
         <Route path="/front-end" element={<FrontEnd />} />
-        <Route path="/backend" element={<BackEnd />} />
+        <Route path="/backend" element={<BackEnd />} /> 
         <Route path="/ui-ux" element={<UIUX />} />
         <Route path="/data-science" element={<DS />} />
         <Route path="/app-development" element={<AppDev />} />
@@ -54,7 +56,8 @@ const App = () => {
 
 
       </Routes>
-    </Router>
+
+</Router>
   );
 };
 
