@@ -21,6 +21,7 @@ const faqData2 = [
         </ul>
 
         <h4>Coursera (free)</h4>
+
         <ul>
           <li>Meta Introduction to HTML / CSS - <a href="#">Click here</a></li>
           <li>IBM Intro to Web Development - <a href="#">Click here</a></li>
@@ -29,11 +30,13 @@ const faqData2 = [
         </ul>
 
         <h4>Top 5 Projects</h4>
+
         <p>Click on <a href="#">Projects</a> to access all content</p>
         <h4>Enough Important Topics</h4>
         <p><a href="#">Download</a> Most Important Concepts</p>
         <h4>Other Important Topics</h4>
         <p>1. Learn Bootstrap | 2. Tailwind CSS | 3. Git / GitHub</p>
+
       </>
     ),
   },
@@ -68,6 +71,7 @@ const faqData2 = [
         <p><a href="#">Download</a> Most Important Concepts</p>
         <h4>Other Important Topics</h4>
         <p>1. Learn Bootstrap | 2. Tailwind CSS | 3. Git / GitHub</p>
+
       </>
     ),
 
@@ -107,7 +111,7 @@ const faqData2 = [
   },
 
   {
-    title: "Learn API😉",
+    title: "Learn API😉", 
     content: (
       <>
 
@@ -281,6 +285,36 @@ const BackEnd = () => {
           </div>
 
         ))}
+    
+      <h2>Apply For InternShips🔥</h2>
+
+  <>
+
+       <h4> YouTube Playlist </h4>
+
+       <ul>
+
+      <h6> 1. Choose a Programming Language </h6>
+
+         <li>Introduction To HTML / CSS - <a href="#">Click here</a></li>
+         <li>Apna College Complete HTML / CSS - <a href="#">Click here</a></li>
+         <li>SuperSimpleDev Html / Css - <a href="#">Click here</a></li>
+         <li>Coding Ninja for Beginners Html / Css - <a href="#">Click here</a></li>
+
+       </ul>
+
+       <h4>Coursera (free)</h4>
+
+       <ul>
+        
+         <li>Meta Introduction to HTML / CSS - <a href="#">Click here</a></li>
+         <li>IBM Intro to Web Development - <a href="#">Click here</a></li>
+         <li>Introduction to Web Technology - <a href="#">Click here</a></li>
+         <li>Beginners to HTML / CSS - <a href="#">Click here</a></li>
+
+       </ul>
+
+  </>
 
       </div>
 
@@ -290,4 +324,4 @@ const BackEnd = () => {
   );
 };
 
-export default BackEnd;
+export default BackEnd; 

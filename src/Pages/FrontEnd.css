@@ -209,6 +209,15 @@
   /* background-color: #3148cd95; */
 }
 
+.faq-container h3{
+
+  opacity: 0.9;
+  text-decoration: underline;
+  /* text-shadow: #ff9800; */
+  
+
+}
+
 /* FAQ Item */
 .faq-item {
   border: 1px solid #ccc;

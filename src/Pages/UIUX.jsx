@@ -5,7 +5,7 @@ import Footer from "../Components/Footer";
 
 const faqData = [
   {
-    title: "HTML / CSS 😍",
+    title: "Master Basic 2 Advance😍",
     content: (
       <>
         <h4>YouTube Playlist</h4>
@@ -40,7 +40,7 @@ const faqData = [
 },
 
     {
-          title: "JavaScript 😎",
+          title: "Designing Tools💯",
           content: (
             <>  
                       {/* This is for the JS  */}
@@ -78,7 +78,7 @@ const faqData = [
 
 
     {
-      title: "React 🔥",
+      title: "Projects🔥",
       content: (
         <>
           <h4>YouTube Playlist</h4>
@@ -205,13 +205,43 @@ alert("Downloading Roadmap...");
           <div key={index} className="faq-item"> 
 
           <div className="faq-title" onClick={() => toggleFAQ(index)}>
-              {index + 1}. {faq.title}
+                   {index + 1}. {faq.title} 
               <span className={`faq-arrow ${openIndex === index ? "open" : ""}`}>▼</span>
           </div>
             
             {openIndex === index && <div className="faq-content">{faq.content}</div>}
       </div>
+
         ))}
+
+        <h2> Apply For InternShips🔥 </h2>
+
+      <>
+
+          <h4>YouTube Playlist</h4>
+  
+      <ul>
+            <li>Introduction To HTML / CSS - <a href="#">Click here</a></li>
+            <li>Apna College Complete HTML / CSS - <a href="#">Click here</a></li>
+            <li>SuperSimpleDev Html / Css - <a href="#">Click here</a></li>
+            <li>Coding Ninja for Beginners Html / Css - <a href="#">Click here</a></li>
+            
+      </ul> 
+  
+          <h4>Coursera (Certification)</h4> 
+  
+      <ul>
+            <li>Meta Introduction to HTML / CSS - <a href="#">Click here</a></li>
+            <li>IBM Intro to Web Development - <a href="#">Click here</a></li>
+            <li>Introduction to Web Technology - <a href="#">Click here</a></li>
+            <li>Beginners to HTML / CSS - <a href="#">Click here</a></li>
+      </ul>
+  
+            
+  
+        </>
+
+
 
 </div>
 
