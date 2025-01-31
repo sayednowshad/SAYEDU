@@ -8,7 +8,8 @@ const faqData = [
   {
     title: "HTML / CSS 😍",
     content: (
-      <>
+      <> 
+
         <h4>YouTube Playlist</h4>
 
     <ul>
