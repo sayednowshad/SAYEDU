@@ -13,7 +13,7 @@ const Explore = () => {
     { title: "UI/UX Designer", img: "ui-ux.jpg", route: "/ui-ux" },
     { title: "Devops Engineer", img: "devops.jpg", route: "/devops" },
     { title: "App Development", img: "app-development.jpg", route: "/app-development" },
-    { title: "Data Science", img: "data-science.jpg", route: "/data-science" },
+    { title: "Data Analyst", img: "data-science.jpg", route: "/data-science" },
     { title: "AI/ML", img: "ai-ml.jpg", route: "/ai-ml" }, 
     { title: "Cyber Security", img: "cyber-security.jpg", route: "/cyber-security" },
     { title: "Git & GitHub", img: "git-github.jpg", route: "/git-github" },

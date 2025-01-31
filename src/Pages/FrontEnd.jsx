@@ -12,7 +12,7 @@ const faqData = [
         <h4>YouTube Playlist</h4>
 
     <ul>
-          <li>Introduction To HTML / CSS - <a href="#">Click here</a></li>
+          <li>Introduction To HTML / CSS - <a href="https://www.youtube.com/watch?v=Qq_pu8ZXAC8">Click here</a></li>
           <li>Apna College Complete HTML / CSS - <a href="#">Click here</a></li>
           <li>SuperSimpleDev Html / Css - <a href="#">Click here</a></li>
           <li>Coding Ninja for Beginners Html / Css - <a href="#">Click here</a></li>

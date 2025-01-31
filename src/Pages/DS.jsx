@@ -5,10 +5,12 @@ import Footer from "../Components/Footer";
 
 const faqData = [
   {
-    title: "HTML / CSS 😍",
+    title: "Learn Basics😍",
     content: (
       <>
         <h4>YouTube Playlist</h4>
+
+        <h3> Learn Excel Tools </h3>
 
     <ul>
           <li>Introduction To HTML / CSS - <a href="#">Click here</a></li>
@@ -17,7 +19,28 @@ const faqData = [
           <li>Coding Ninja for Beginners Html / Css - <a href="#">Click here</a></li>
           
     </ul>
+        <h3> Programming Language  </h3>
 
+        <ul>
+          <li>Introduction To HTML / CSS - <a href="#">Click here</a></li>
+          <li>Apna College Complete HTML / CSS - <a href="#">Click here</a></li>
+          <li>SuperSimpleDev Html / Css - <a href="#">Click here</a></li>
+          <li>Coding Ninja for Beginners Html / Css - <a href="#">Click here</a></li>
+          
+    </ul>
+
+    <h3> Basic Statistics  </h3>
+
+            <ul>
+            <li>Introduction To HTML / CSS - <a href="#">Click here</a></li>
+            <li>Apna College Complete HTML / CSS - <a href="#">Click here</a></li>
+            <li>SuperSimpleDev Html / Css - <a href="#">Click here</a></li>
+            <li>Coding Ninja for Beginners Html / Css - <a href="#">Click here</a></li>
+            
+            </ul>
+
+
+      
         <h4>Coursera (Certification)</h4> 
 
     <ul>
@@ -27,9 +50,6 @@ const faqData = [
           <li>Beginners to HTML / CSS - <a href="#">Click here</a></li>
     </ul>
 
-          <h4>Top 5 Projects</h4>
-          <p>Click on <a href="#">Projects</a> to access all content</p>
-          <h4>Enough Important Topics</h4>
           <p><a href="#">Download</a> Most Important Concepts</p>
           <h4>Other Important Topics</h4>
           <p>1. Learn Bootstrap | 2. Tailwind CSS | 3. Git / GitHub</p>
@@ -40,12 +60,14 @@ const faqData = [
 },
 
     {
-          title: "JavaScript 😎",
+          title: "Data Manipulation & Analysis🤝",
           content: (
             <>  
                       {/* This is for the JS  */}
 
     <h4>YouTube Playlist</h4> 
+
+    <h4>Numpy & Pandas</h4> 
 
     <ul>
           <li>Introduction To HTML / CSS - <a href="#">Click here</a></li>
@@ -55,7 +77,29 @@ const faqData = [
           
     </ul>
 
-        <h4>Coursera (free)</h4>
+    <h4>Data Cleaning (basics) </h4> 
+
+    <ul>
+          <li>Introduction To HTML / CSS - <a href="#">Click here</a></li>
+          <li>Apna College Complete HTML / CSS - <a href="#">Click here</a></li>
+          <li>SuperSimpleDev Html / Css - <a href="#">Click here</a></li>
+          <li>Coding Ninja for Beginners Html / Css - <a href="#">Click here</a></li>
+          
+    </ul>
+
+    <h4>Data Visualization (basics) </h4> 
+
+    <ul>
+          <li>Introduction To HTML / CSS - <a href="#">Click here</a></li>
+          <li>Apna College Complete HTML / CSS - <a href="#">Click here</a></li>
+          <li>SuperSimpleDev Html / Css - <a href="#">Click here</a></li>
+          <li>Coding Ninja for Beginners Html / Css - <a href="#">Click here</a></li>
+          
+    </ul>
+
+
+
+        {/* <h4>Coursera (free)</h4>
 
     <ul>
           <li>Meta Introduction to HTML / CSS - <a href="#">Click here</a></li>
@@ -69,7 +113,7 @@ const faqData = [
           <h4>Enough Important Topics</h4>
           <p><a href="#">Download</a> Most Important Concepts</p>
           <h4>Other Important Topics</h4>
-          <p>1. Learn Bootstrap | 2. Tailwind CSS | 3. Git / GitHub</p>
+          <p>1. Learn Bootstrap | 2. Tailwind CSS | 3. Git / GitHub</p> */}
       
       </>              
 
@@ -78,7 +122,7 @@ const faqData = [
 
 
     {
-      title: "React 🔥",
+      title: " DBMS (Recommended SQL)🔥",
       content: (
         <>
           <h4>YouTube Playlist</h4>
@@ -100,13 +144,62 @@ const faqData = [
             <li>Beginners to HTML / CSS - <a href="#">Click here</a></li>
       </ul>
   
-            <h4>Top 5 Projects</h4>
-            <p>Click on <a href="#">Projects</a> to access all content</p>
-            <h4>Enough Important Topics</h4>
-            <p><a href="#">Download</a> Most Important Concepts</p>
             <h4>Other Important Topics</h4>
             <p>1. Learn Bootstrap | 2. Tailwind CSS | 3. Git / GitHub</p>
   
+        </>
+
+      ),
+  },
+
+  {
+      title: " Data Visualization Tools🔥",
+      content: (
+        <>
+          <h4>YouTube Playlist</h4>
+
+          <h4>Power BI🎯</h4> 
+  
+      <ul>
+            <li>Introduction To HTML / CSS - <a href="#">Click here</a></li>
+            <li>Apna College Complete HTML / CSS - <a href="#">Click here</a></li>
+            <li>SuperSimpleDev Html / Css - <a href="#">Click here</a></li>
+            <li>Coding Ninja for Beginners Html / Css - <a href="#">Click here</a></li>
+            
+      </ul>
+
+      <h4> Tableau😉</h4> 
+  
+      <ul>
+            <li>Introduction To HTML / CSS - <a href="#">Click here</a></li>
+            <li>Apna College Complete HTML / CSS - <a href="#">Click here</a></li>
+            <li>SuperSimpleDev Html / Css - <a href="#">Click here</a></li>
+            <li>Coding Ninja for Beginners Html / Css - <a href="#">Click here</a></li>
+            
+      </ul>
+  
+          {/* <h4>Coursera (Certification)</h4> 
+  
+      <ul>
+            <li>Meta Introduction to HTML / CSS - <a href="#">Click here</a></li>
+            <li>IBM Intro to Web Development - <a href="#">Click here</a></li>
+            <li>Introduction to Web Technology - <a href="#">Click here</a></li>
+            <li>Beginners to HTML / CSS - <a href="#">Click here</a></li>
+      </ul> */}
+  
+            <h4>Other Important Topics</h4>
+            <p>1. Learn Bootstrap | 2. Tailwind CSS | 3. Git / GitHub</p>
+  
+        </>
+
+      ),
+  },
+  {
+      title: " Real-World Projects🔥",
+      content: (
+        <>
+          <h5 style={{textAlign : 'center'}}>Updating Soon😉</h5>
+
         </>
 
       ),
